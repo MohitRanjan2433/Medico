@@ -13,3 +13,4 @@ CREATE TABLE users (
 
 INSERT INTO users(email, username, password) VALUES ("arjunbasandrai2004@gmail.com","Arjun122","956152c4943615f5b45ba32bb8ba4ebf");
 INSERT INTO users(email, username, password) VALUES ("text@sample.com", "Test", "6c30734811916b0f0f24a4630b08036f");
+

@@ -4,21 +4,36 @@
     $_SESSION['status'] = 'ud';
     if (isset($_POST['uname']) && isset($_POST['pass'])) {
         unset($_SESSION['uname']);
-        $sql = "SELECT password FROM users WHERE username=:name";
+
+        $sql = "SELECT username FROM users";
         $stmt = $pdo->prepare($sql);
-        $stmt->execute(array(
-            ':name' => $_POST['uname']
-        ));
-        $row = $stmt->fetch(PDO::FETCH_ASSOC);
-        if ($row['password']==md5($_POST['pass'])) {
-            print_r($row['password']);
-            $_SESSION['uname'] = $_POST['uname'];
-            $_SESSION['status'] = 'Logged in';
-            header('Location: index.php');
-            return;
-        } 
-        else {
-            $_SESSION['status'] = 'Incorrect password';
+        $stmt->execute();
+        while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+                $_SESSION['status'] = 'Invalid';
+            if ($row['username'] == $_POST['uname']) {
+                $_SESSION['status'] = 'ud';
+                break;
+            }
+        }
+        if ($_SESSION['status'] != "Invalid") {
+            $sql = "SELECT password FROM users WHERE username=:name";
+            $stmt = $pdo->prepare($sql);
+            $stmt->execute(array(
+                ':name' => $_POST['uname']
+            ));
+            $row = $stmt->fetch(PDO::FETCH_ASSOC);
+            if ($row['password']==md5($_POST['pass'])) {
+                print_r($row['password']);
+                $_SESSION['uname'] = $_POST['uname'];
+                $_SESSION['status'] = 'Logged in';
+                header('Location: index.php');
+                return;
+            } 
+            else {
+                $_SESSION['status'] = 'Inavlid';
+                header('Location: login.php');
+                return;
+            }
         }
     }
 ?>
@@ -40,6 +55,12 @@
         <div class="signin">
             <h1>Welcome!</h1>
             <p>Sign into your account</p>
+            <?php
+                if ($_SESSION['status']=="Invalid") {
+                    echo "<p class='errpass'>Incorrect Username/Password</p>";
+                    unset($_SESSION['status']);
+                }
+            ?>
             <form method="post" action="">
                 <label for="uname">Username</label>
                 <i class="far fa-user"></i>
