@@ -1,10 +1,10 @@
 <?php
     session_start();
-    session_destroy();
-    session_start();
     if (!isset($_SESSION['status']) || !isset($_SESSION['uname'])) {
-        header('Location: login.php');
-        return;
+        if ($_SESSION['status'] != "ud") {
+            header('Location: login.php');
+            return;
+        }
     }
 ?>
 
@@ -17,6 +17,7 @@
     <title>Document</title>
 </head>
 <body>
-    <p>ABC</p>
+    <p>Logged in as <?= $_SESSION['uname']; ?></p>
+    <button><a href="logout.php">Logout</a></button>
 </body>
 </html>
