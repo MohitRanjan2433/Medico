@@ -44,13 +44,13 @@ body {
 }
 form label {
     float: left;
-    margin: 25px 0px 0px 40px;
+    margin: 25px 0px 10px 20px;
 }
 label {
     font-size: 14px;
 }
 form input , form button {
-    width: 200px;
+    width: calc(100% - 20px);
     height: 35px;
     color: #fff;
     background-color: #3b3e87;
@@ -58,6 +58,7 @@ form input , form button {
     border: none;
     border-radius: 15px;
     padding: 10px;
+    margin: 0 20px;
 }
 form input[type]::placeholder {
     color: #fff;
@@ -67,16 +68,20 @@ form a {
     font-size: 14px;
     margin: 15px 25px;
 }
-form button {
+form input[type*="submit"] {
     background: #ed0c2e;
     font-size: 16px;
     padding: 1px;
     margin: 10px 0 10px 20px;
     cursor: pointer;
 }
-form button:hover {
+form input[type*="submit"]:hover {
     transition: .5s;
     background: #cf2b44;
+}
+
+.login-form {
+    margin: 10px 0;
 }
 
 @media screen and (max-width: 900px) {
