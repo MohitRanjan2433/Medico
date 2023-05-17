@@ -6,22 +6,12 @@
     font-family:'Tilt Neon','Poppins', sans-serif;
 }
 
-body {
-    background-image: url(bg2.jpg);
-    background-position: center;
-    background-size: cover;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    min-height: 100vh;
-}
-
 .main {
     display: inline-flex;
     box-shadow: 0 2px 10px 10px rgba(0,0,0,0.2);
 }
 .logo {
-    background-image: url(nutrient-additives-medicine-pills-bless-you-47073.jpeg);
+    background-image: url(../imgs/nutrient-additives-medicine-pills-bless-you-47073.jpeg);
     width: 550px;
     height: 470px;
     background-position: center;
@@ -42,14 +32,17 @@ body {
     text-align: center;
     border-radius: 20px;
 }
-form label {
+
+.login-form label {
     float: left;
     margin: 25px 0px 10px 20px;
 }
+
 label {
     font-size: 14px;
 }
-form input , form button {
+
+.login-form input , .login-form button {
     width: calc(100% - 20px);
     height: 35px;
     color: #fff;
@@ -60,22 +53,25 @@ form input , form button {
     padding: 10px;
     margin: 0 20px;
 }
-form input[type]::placeholder {
+
+.login-form input[type]::placeholder {
     color: #fff;
 }
-form a {
+
+.login-form a {
     color: #fff;
     font-size: 14px;
     margin: 15px 25px;
 }
-form input[type*="submit"] {
+
+.login-form input[type*="submit"] {
     background: #ed0c2e;
     font-size: 16px;
     padding: 1px;
     margin: 10px 0 10px 20px;
     cursor: pointer;
 }
-form input[type*="submit"]:hover {
+.login-form input[type*="submit"]:hover {
     transition: .5s;
     background: #cf2b44;
 }
@@ -86,6 +82,53 @@ form input[type*="submit"]:hover {
 
 .errpass {
     color: red;
+}
+
+.head {
+    background-image: url(../imgs/head.jpg);
+    background-position: center;
+    flex-direction: column;
+    padding: 60px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.head h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+/* homepage */
+
+.get-med-form {
+    width: 100%;
+    justify-content: center;
+    max-width: 720px;
+}
+
+.get-med-form > input {
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1.1em;
+}
+
+.get-med {
+    flex: 1 1 0%;
+    margin-right: 20px;
+    border: 1px solid #111 !important;
+}
+
+.get-med-form > input[type*="submit"] {
+    padding: 20px 40px;
+    cursor: pointer;
+    background: #8e74ff;
+    color: #fff;
+    transition: .5s all ease-out;
+}
+
+.get-med-form > input[type*="submit"]:hover {
+    background: #9B85FF;
 }
 
 @media screen and (max-width: 900px) {
