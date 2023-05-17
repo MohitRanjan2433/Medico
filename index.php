@@ -1,10 +1,8 @@
 <?php
     session_start();
     if (!isset($_SESSION['status']) || !isset($_SESSION['uname'])) {
-        if ($_SESSION['status'] != "ud") {
-            header('Location: login.php');
-            return;
-        }
+        header('Location: login.php');
+        return;
     }
 ?>
 

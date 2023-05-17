@@ -64,10 +64,10 @@
             <form method="post" action="">
                 <label for="uname">Username</label>
                 <i class="far fa-user"></i>
-                <input type="text" placeholder="Enter your username" name="uname" id="uname">
+                <input type="text" placeholder="Enter your username" name="uname" id="uname" required>
                 <label for="pass">Password</label>
                 <i class="far fa-user"></i>
-                <input type="password" placeholder="Enter your password" name="pass" id="pass"><br>
+                <input type="password" placeholder="Enter your password" name="pass" id="pass" required><br>
                 <a href="#">Forget Password ?</a><br>
                 <input type="submit" value="Login">
                 <br><br>
