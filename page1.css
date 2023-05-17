@@ -1,0 +1,382 @@
+.desktop-2-child {
+  position: absolute;
+  top: 13px;
+  left: 49px;
+  border-radius: var(--br-11xl);
+  background-color: #fdfdfd;
+  width: 441px;
+  height: 998px;
+}
+.help {
+  color: var(--color-mediumslateblue);
+}
+.medhelp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.1em;
+  line-height: 100.4%;
+  font-weight: 800;
+}
+.logo-child {
+  position: absolute;
+  top: 14.5px;
+  left: 174.5px;
+  width: 44px;
+  height: 5px;
+}
+.logo-inner,
+.logo-item {
+  position: absolute;
+  top: -0.06px;
+  left: 213.66px;
+  width: 9.56px;
+  height: 19.73px;
+}
+.logo-inner {
+  top: -1.61px;
+  left: 219.25px;
+  width: 20.09px;
+  height: 41.79px;
+}
+.line-icon,
+.logo-child1 {
+  position: absolute;
+  top: 15.11px;
+  left: 234.76px;
+  width: 11.98px;
+  height: 26.09px;
+}
+.logo-child1 {
+  top: 13.89px;
+  left: 241.49px;
+  width: 34.01px;
+  height: 5.45px;
+}
+.logo,
+.logo-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 273px;
+  height: 38.74px;
+}
+.logo-wrapper {
+  top: 56px;
+  left: 70px;
+  color: #ff8b4a;
+  font-family: var(--font-lato);
+}
+.profile-button-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xl);
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    #ffa675 47.92%,
+    rgba(244, 100, 19, 0.32) 71.88%,
+    rgba(239, 86, 0, 0)
+  );
+  box-shadow: 0 4px 4px #fd823e;
+  width: 319px;
+  height: 94px;
+}
+.icon-person {
+  position: absolute;
+  height: 40.19%;
+  width: 12.54%;
+  top: 29.79%;
+  right: 77.43%;
+  bottom: 30.02%;
+  left: 10.03%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.profile {
+  position: absolute;
+  top: 35px;
+  left: 102px;
+  font-size: var(--font-size-8xl);
+  letter-spacing: 0.01em;
+  line-height: 100.4%;
+  font-weight: 300;
+  font-family: var(--font-outfit);
+  color: var(--primary-contrast);
+  text-align: left;
+}
+.profile-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 183px;
+  left: 70px;
+  width: 319px;
+  height: 94px;
+}
+.locate-pharmacies-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xl);
+  background-color: var(--primary-contrast);
+  box-shadow: 0 4px 4px #bfa2ff;
+  width: 319px;
+  height: 94px;
+}
+.locate-pharmacies1 {
+  position: absolute;
+  top: 17px;
+  left: 102px;
+  font-size: var(--font-size-8xl);
+  letter-spacing: 0.01em;
+  line-height: 82.9%;
+  font-weight: 300;
+  font-family: var(--font-outfit);
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+  width: 189px;
+}
+.icon-clinical-document {
+  position: absolute;
+  height: 50%;
+  width: 10.31%;
+  top: 24.47%;
+  right: 79.66%;
+  bottom: 25.53%;
+  left: 10.03%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.locate-pharmacies {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 345px;
+  left: 70px;
+  width: 319px;
+  height: 94px;
+}
+.emergency {
+  position: absolute;
+  top: 36px;
+  left: 102px;
+  font-size: var(--font-size-8xl);
+  letter-spacing: 0.01em;
+  line-height: 82.9%;
+  font-weight: 300;
+  font-family: var(--font-outfit);
+  color: var(--color-gray-200);
+  text-align: left;
+}
+.icon-ambulance {
+  position: absolute;
+  height: 38.3%;
+  width: 16.61%;
+  top: 30.85%;
+  right: 76.18%;
+  bottom: 30.85%;
+  left: 7.21%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.locate-pharmacies2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 507px;
+  left: 70px;
+  width: 319px;
+  height: 94px;
+}
+.wellness-wault {
+  position: absolute;
+  top: 36px;
+  left: 102px;
+  font-size: var(--font-size-8xl);
+  letter-spacing: 0.01em;
+  line-height: 82.9%;
+  font-weight: 300;
+  font-family: var(--font-outfit);
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+  width: 189px;
+}
+.locate-pharmacies3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 669px;
+  left: 70px;
+  width: 319px;
+  height: 94px;
+}
+.customer-support {
+  position: absolute;
+  top: 25px;
+  left: 102px;
+  font-size: var(--font-size-8xl);
+  letter-spacing: 0.01em;
+  line-height: 82.9%;
+  font-weight: 300;
+  font-family: var(--font-outfit);
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+  width: 189px;
+}
+.icon-support {
+  position: absolute;
+  height: 43.09%;
+  width: 14.11%;
+  top: 26.6%;
+  right: 76.8%;
+  bottom: 30.32%;
+  left: 9.09%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.locate-pharmacies4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 831px;
+  left: 70px;
+  width: 319px;
+  height: 94px;
+}
+.icon-heart {
+  position: absolute;
+  height: 4.88%;
+  width: 3.06%;
+  top: 67.48%;
+  right: 89.86%;
+  bottom: 27.64%;
+  left: 7.08%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.desktop-2-item {
+  position: absolute;
+  top: 13px;
+  left: 510px;
+  border-radius: var(--br-11xl);
+  background-color: var(--primary-contrast);
+  width: 881px;
+  height: 998px;
+}
+.shiv-deshpande {
+  position: absolute;
+  top: 60px;
+  left: 1097px;
+  font-size: var(--font-size-13xl);
+  letter-spacing: 0.01em;
+  line-height: 82.9%;
+  font-weight: 600;
+}
+.vector-icon7 {
+  position: absolute;
+  height: 113.33%;
+  width: 109.09%;
+  top: -6.67%;
+  right: -4.55%;
+  bottom: -6.67%;
+  left: -4.55%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon-arrow-down-1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 1.46%;
+  width: 1.53%;
+  top: 6.74%;
+  right: 5%;
+  bottom: 91.8%;
+  left: 88.47%;
+}
+.desktop-2-inner {
+  position: absolute;
+  top: 45px;
+  left: 1023px;
+  width: 57px;
+  height: 57px;
+  object-fit: cover;
+}
+.span {
+  font-size: var(--font-size-13xl);
+  font-weight: 600;
+}
+.welcome {
+  position: absolute;
+  top: 102px;
+  left: 595px;
+  letter-spacing: 0.01em;
+  line-height: 82.9%;
+  font-size: 55px;
+}
+.good-day {
+  color: #ffa16e;
+}
+.shiv-good-day-container {
+  position: absolute;
+  top: 171px;
+  left: 595px;
+  font-size: 60px;
+  letter-spacing: 0.01em;
+  line-height: 82.9%;
+  color: var(--color-mediumslateblue);
+}
+.this-website-helps {
+  position: absolute;
+  top: 273px;
+  left: 600px;
+  letter-spacing: 0.06em;
+  line-height: 93.4%;
+  display: inline-block;
+  color: #ff9960;
+  width: 770px;
+  height: 133px;
+}
+.desktop-2 {
+  position: relative;
+  background-color: var(--color-lavender-100);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  font-family: var(--font-outfit);
+}
+@media screen and (max-width: 960px) {
+  .desktop-2 {
+    background-color: var(--color-lavender-100);
+  }
+}
+@media screen and (max-width: 420px) {
+  .desktop-2 {
+    background-color: var(--color-lavender-100);
+  }
+}
