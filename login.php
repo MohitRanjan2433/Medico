@@ -45,7 +45,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login form</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <style>
+    body {
+        background-image: url(static/imgs/bg2.jpg); 
+        background-position: center;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        min-height: 100vh;
+    } 
+    </style>
 </head>
 <body>
     <div class="main">
@@ -61,7 +72,7 @@
                     unset($_SESSION['status']);
                 }
             ?>
-            <form method="post" action="">
+            <form method="post" action="" class="login-form">
                 <label for="uname">Username</label>
                 <i class="far fa-user"></i>
                 <input type="text" placeholder="Enter your username" name="uname" id="uname" required>
