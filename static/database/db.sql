@@ -1,6 +1,6 @@
 CREATE DATABASE medico;
-GRANT ALL ON medico.* TO 'arjun'@'localhost' IDENTIFIED by 'zappeysfc';
-GRANT ALL ON medico.* TO 'arjun'@'127.0.0.1' IDENTIFIED by 'zappeysfc';
+GRANT ALL ON medico.* TO 'root'@'localhost' IDENTIFIED by 'zappeysfc';
+GRANT ALL ON medico.* TO 'root'@'127.0.0.1' IDENTIFIED by 'zappeysfc';
 
 USE medico;
 CREATE TABLE users (
