@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+    body { 
+        background-position: center;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        min-height: auto;
+    } 
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="signin">
+            <h1>Welcome!</h1>
+            <p>Sign Up</p>
+            <div>
+                <img src="medico_logo.PNG" alt="medico_logo" style="width: 200px;height: auto;">
+            </div>
+            <form method="post" action="" class="login-form">
+                <!-- <label for="firstname">First Name</label>
+                <input type="text" placeholder="Enter your username" name="firstname" id="firstname" required> -->
+                <!-- <label for="lastname">Last Name</label>
+                <input type="text" placeholder="Enter your last name" name="lastname" id="lastname" required> -->
+                <div class="name">
+                    <label for="firstname">First Name</label>
+                    <input type="text" placeholder="Enter your username" name="firstname" id="firstname" required>
+                    <label for="lastname">Last Name</label>
+                    <input type="text" placeholder="Enter your last name" name="lastname" id="lastname" required>
+                </div>
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter your email" name="email" id="email" required>
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date" required>
+                <label for="month">Month</label>
+                <input type="month" name="month" id="month" required>
+                <label for="year">Year</label>
+                <input type="year" name="year" id="year" required>
+                <label for="pass">Password</label>
+                <input type="password" placeholder="Enter your password" name="pass" id="pass" required><br>
+                <label for="confirm-pass">Confirm Password</label>
+                <input type="password" placeholder="Confirm your password" name="confirm-pass" id="confirm-pass" required>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

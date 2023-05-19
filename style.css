@@ -1,0 +1,101 @@
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: var(--lato);
+    letter-spacing: 0.3px;
+    border-radius: 35px;
+}
+
+
+.main {
+    display: inline-flex;
+    box-shadow:  2px 15px 10px rgba(0,0,0,0.2);
+    border-radius: 25px;
+    width: 600px;
+}
+
+.signin {
+    width: 320px;
+    background: #5d58ed;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+}
+
+.login-form label {
+    float: left;
+    margin: 25px 0px 10px 0px;
+}
+
+label {
+    font-size: 14px;
+}
+
+.login-form input , .login-form button {
+    width: calc(100% - 20px);
+    height: 35px;
+    color: #fff;
+    background-color: #3b3e87;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.login-form input[type]::placeholder {
+    color: #fff;
+}
+
+.login-form a {
+    color: #fff;
+    font-size: 10px;
+    margin: 15px 25px;
+}
+
+.login-form input[type*="submit"] {
+    background: #ed0c2e;
+    font-size: 16px;
+    padding: 1px;
+    margin: 10px 0 10px 20px;
+    cursor: pointer;
+}
+.login-form input[type*="submit"]:hover {
+    transition: .5s;
+    background: #cf2b44;
+}
+
+
+
+
+@media screen and (max-width: 568px) {
+    .get-med-form > input[type*="submit"] {
+        display: none;
+    }
+}
+
+a[title*="Hosted on free web hosting 000webhost.com. Host your own website for FREE."] {
+    display: none;
+}
+
+.login-form .name-input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+ .login-form .name-input label {
+    margin-bottom: 5px;
+  }
+  
+  .login-form .name-input input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  } 
